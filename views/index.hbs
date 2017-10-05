@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+</head>
+<body>
+    <div class="cupcake-list">
+        {{#each cupcakes}}
+        <div>
+            <h4>{{this.name}}</h4>
+            <p>{{this.baker}}</p>
+            <p>{{this.averageRating}}</p>
+        </div>
+        {{/each}}
+    </div>
+    
+</body>
+</html>
